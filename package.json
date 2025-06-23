@@ -1,0 +1,27 @@
+{
+  "name": "discobot",
+  "version": "1.0.0",
+  "description": "Music bot for Discord",
+  "homepage": "https://github.com/jasonjnbaptiste/DiscoBot#readme",
+  "bugs": {
+    "url": "https://github.com/jasonjnbaptiste/DiscoBot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonjnbaptiste/DiscoBot.git"
+  },
+  "license": "ISC",
+  "author": "Jason Jn Baptiste",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.20.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "eslint": "^9.29.0"
+  }
+}
