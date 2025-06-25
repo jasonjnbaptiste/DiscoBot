@@ -31,6 +31,6 @@ module.exports = {
     connection.subscribe(player);
 
     player.on(AudioPlayerStatus.Idle, () => connection.destroy());
-    await interaction.reply(`Now play ${url}, requested by ${interaction.user.username}`);
+    await interaction.reply(`Now playing ${url}, requested by ${interaction.user}`);
   },
 };
