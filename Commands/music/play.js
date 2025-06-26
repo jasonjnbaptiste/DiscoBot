@@ -12,7 +12,6 @@ module.exports = {
         .setRequired(true)),
   async execute(interaction) {
     const url = interaction.options.getString('url');
-    console.log(url);
     const stream = ytdl(url, { filter: 'audioonly' });
     const resource = createAudioResource(stream, { inputType: StreamType.Arbitrary });
 
