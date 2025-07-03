@@ -19,6 +19,6 @@ module.exports = {
     const skipped = serverQueue.audios[0];
     serverQueue.player.stop();
 
-    return interaction.reply(`⏭️Skipped ${skipped.url}\n💡 Skipped by: ${interaction.user}`);
+    return interaction.reply(`⏭️ Skipped ${skipped.url}\n💡 Skipped by: ${interaction.user}`);
   },
 };
